@@ -1,0 +1,33 @@
+### Rota para listar produtos
+
+GET http://localhost:3000/
+Content-Type: application/json
+
+###
+
+### salvar produtos
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "id": 1,
+    "nome": "Mouse",
+    "preco": 15,
+    "quantidade": 8
+
+}
+
+###
+
+### editar produtos
+PUT http://localhost:3000/1
+Content-Type: application/json
+
+{
+    "novoNome": "Monitor 30 editado",
+    "novoPreco": 4500,
+    "novaQuantidade": 2
+
+}
+
+###
