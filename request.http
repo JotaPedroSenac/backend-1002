@@ -10,10 +10,10 @@ POST http://localhost:3000/
 Content-Type: application/json
 
 {
-    "id": 1,
+    "id": 3,
     "nome": "Mouse",
-    "preco": 15,
-    "quantidade": 8
+    "preco": 25,
+    "quantidade": 10
 
 }
 
@@ -29,5 +29,11 @@ Content-Type: application/json
     "novaQuantidade": 2
 
 }
+
+###
+
+### Remover produtos
+DELETE http://localhost:3000/1
+Content-Type: application/json
 
 ###
